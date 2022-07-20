@@ -1,0 +1,35 @@
+{
+  "name": "react_telmate_acl",
+  "version": "1.0.0",
+  "description": "React Telmate ACL",
+  "main": "./dist/index.js",
+  "module": "./dist/index.modern.js",
+  "types": "./dist/index.d.ts",
+  "source": "./src/index.tsx",
+  "repository": "git@gitlab.gtl.net:libraries/react_telmate_acl.git",
+  "author": "Joao Vieira <joao.vieira@gtl.net>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "microbundle-crl --no-compress --format modern,cjs"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "microbundle-crl": "^0.13.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
